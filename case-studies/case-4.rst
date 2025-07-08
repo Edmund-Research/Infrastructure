@@ -68,31 +68,6 @@ Benefits
 
 **Scalability**: Cloud-native ingestion from distributed cloud/on-prem assets.
 
-Implementation Roadmap
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-Phase 1: Foundations (Q2 2025)
-
-  Deploy Azure Sentinel.
-  
-  Connect Azure infra, VNFs, and Azure Arc-enabled on-prem systems.
-  
-  Define custom alert rules and workbooks.
-
-Phase 2: Multi-Cloud & SDN Integration (Q3 2025)
-
-  Onboard AWS, GCP, and VMware workloads.
-  
-  Connect SDN telemetry and virtual firewalls.
-  
-  Enable SOAR automation for incident types.
-
-Phase 3: Audit & Compliance Automation (Q4 2025)
-
-  Define compliance control mappings (PCI, ISO, SOC2).
-  
-  Automate workbook-driven audit report generation.
-  
-  Train SecOps teams on rule tuning and playbook creation.
 
 Metrics for Success
 ~~~~~~~~~~~~~~~~~~~
@@ -125,4 +100,3 @@ Potential Drawbacks & Mitigations
 **Alert Fatigue from Poor Rules**: Phase-wise rule tuning, use MITRE ATT&CK and baseline profiling.
 
 **Integration with Legacy Systems**: Leverage Syslog/NXLog connectors and custom parsing logic.
-

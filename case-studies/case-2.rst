@@ -2,13 +2,13 @@
 InfraOps AI Agents for Automation & Resilience
 ===============================================
 
-🎯 Objective
+Objective
 ~~~~~~~~~~~~~
 Implement an InfraOps model that automates routine security operations—patching, compliance checks, 
 incident triage—and embeds AI agents to reduce manual toil, accelerate response, and improve governance across 
 hybrid Azure-first multi-cloud and on-prem environments.
 
-🧱 Solution Architecture
+Solution Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. *InfraOps Platform*
 
@@ -40,35 +40,6 @@ hybrid Azure-first multi-cloud and on-prem environments.
 **Drift Monitoring**: Terraform Cloud/Enterprise or Azure Policy for continuous drift detection and automatic remediation rollbacks.
 
 **Telemetry & Metrics Store**: Azure Monitor Logs and Grafana dashboards fed by pipeline events and AI agent actions.
-
-Implementation Phases
-~~~~~~~~~~~~~~~~~~~~~
-
-*Phase 1*: **Pilot Critical Workloads (Q2 2025)**
-
-  Select high-risk systems (payment servers, AD domain controllers).
-  
-  Containerize patch and compliance tasks in pipelines.
-  
-  Deploy first-generation AI agent to respond to standard vulnerabilities.
-
-
-*Phase 2*: **Expand & Integrate (Q4 2025)**
-
-  Extend pipelines to 80% of routine ops (patch, config audit, vulnerability scanning).
-  
-  Integrate SDN/NFV for network policy automation.
-  
-  Enhance AI agents for incident triage—classify alerts and suggest remediation.
-
-
-*Phase 3*: **Optimize & Scale (Q2 2026)**
-
-  Achieve <48-hour patch cycles; reduce misconfigurations by 90%.
-  
-  Automate response for top 5 incident types via SOAR playbooks.
-  
-  Implement real-time drift correction and post-mortem analytics with AI.
 
 
 Security & Compliance

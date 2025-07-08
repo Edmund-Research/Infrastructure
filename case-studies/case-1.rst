@@ -8,7 +8,7 @@ As financial institutions increase their reliance on hybrid infrastructure and m
 sophisticated cyber threats has grown. This business case proposes a Network Digital Twin (NDT) to simulate, observe, and preemptively respond 
 to threats by creating a virtual replica of the live environment, incorporating AI-driven threat simulations and real-time security control feedback.
 
-🎯 Business Alignment
+Business Alignment
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Risk Management** - Enables proactive threat detection and security control validation before real-world exposure.
@@ -19,7 +19,7 @@ to threats by creating a virtual replica of the live environment, incorporating 
 
 **Innovation Enablement** -	Supports R&D of secure architectures without affecting production systems.
 
-🧱 Solution Architecture
+Solution Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Core Components:
 
@@ -35,7 +35,7 @@ Core Components:
 
 **CI/CD Loopback**: Validated improvements pushed to production automatically.
 
-📉 Potential drawbacks
+Potential drawbacks
 ~~~~~~~~~~~~~~~~~~~
 
 1. *Cost*
@@ -67,11 +67,10 @@ Core Components:
 
 Possible Metrics for Success
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-💡 Reduction in post-deployment high/critical vulnerabilities.
+Reduction in post-deployment high/critical vulnerabilities.
 
-🕒 Faster MTTR through pre-trained incident runbooks.
+Faster MTTR through pre-trained incident runbooks.
 
-📉 A drop in change rollbacks due to tested configurations.
+A drop in change rollbacks due to tested configurations.
 
-📈 Full mapping of twin to compliance control checks (RA-5, CP-4, IR-8).
-
+Full mapping of twin to compliance control checks (RA-5, CP-4, IR-8).

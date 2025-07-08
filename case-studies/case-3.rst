@@ -18,9 +18,9 @@ Context & Problem Statement
 
 5. High costs of traditional physical appliances (firewalls, routers, IDS/IPS).
 
-🧠 Proposed Solution: SDN/NFV-Based Hybrid Network Architecture
+Proposed Solution: SDN/NFV-Based Hybrid Network Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-🔹 Core Components
+Core Components
 
 1. **SD-WAN Overlay (Azure Virtual WAN, AWS Cloud WAN)**
 
@@ -63,31 +63,6 @@ Benefits
 
 **Compliance**:	Trackable enforcement of network policies and segmentation rules.
 
-Implementation Roadmap
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Phase 1: Design & Pilot (Q2–Q3 2025)*
-
-  Identify pilot zone (e.g., critical customer APIs, payments backend).
-  
-  Deploy Azure Virtual WAN and SDN controller.
-  
-  Configure test VNFs (e.g., virtual firewall and IDS).
-
-*Phase 2: Expand to Multi-Cloud (Q4 2025)*
-
-  Extend SDN overlay to AWS and key on-prem segments.
-  
-  Standardize segmentation and routing policies.
-  
-  Connect VNFs to Azure Sentinel and establish SIEM playbooks.
-
-*Phase 3: Optimize & Automate (Q1 2026)*
-
-  Integrate with GitOps workflows.
-  
-  Enable dynamic deployment of VNFs based on SIEM or monitoring triggers.
-  
-  Real-time traffic analytics to guide segmentation refinement.
 
 Metrics for Success
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -116,4 +91,3 @@ Potential Drawbacks & Mitigations
 **Initial Performance Tuning Required**: Pilot critical segments, gradually scale based on metrics.
 
 **VNF Licensing and Integration Costs**: Replace expensive legacy appliances, and use usage-based billing.
-
