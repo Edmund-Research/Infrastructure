@@ -15,7 +15,7 @@ Addresses significant challenges in:
 ### 1.3 Solution Overview
 The Multi-Engine Intelligence Platform will address these challenges by implementing:
 - **Threat Intelligence Engine (TIE)**: Centralized security intelligence aggregation and analysis
-- **SRE Metrics Engine (SME)**: Comprehensive operational metrics collection and analysis
+- **SR Metrics Engine (SME)**: Comprehensive operational metrics collection and analysis
 - **Compliance Engine (CE)**: Automated compliance monitoring and reporting
 - **Unified Data Architecture**: Integrated data layer enabling cross-engine intelligence and correlation
 
